@@ -1,14 +1,17 @@
 #sitemap-body {
     
+}
+
+#sitemap-body ul {
     
+    color: black;
+    list-style-type: circle;
 }
 
 
 
 #sitemap-body a { 
     
-    color: black
-    
-    
+    color: black;
 }
 
