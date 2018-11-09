@@ -32,25 +32,11 @@
 
 #footer-links .links {
    
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: black;
-   text-align: center;
-   
-
+    text-align: center;
 }
 
 #footer-links .links li {
-   
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: black;
-   text-align: center;
-   display: inline-block;
-   /*padding: 20px;*/
+    display: inline-block;
+    padding: 20px;
 }
 /* CSS for site footer end */
