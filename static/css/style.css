@@ -19,7 +19,7 @@
 /* CSS for sitemap.html end */
 
 /* CSS for site footer start */
-#footer-links a {
+#footer-links {
     
    position: fixed;
    left: 0;
@@ -27,5 +27,16 @@
    width: 100%;
    color: black;
    text-align: center;
+}
+
+
+#footer-links .links {
+   
+    text-align: center;
+}
+
+#footer-links .links li {
+    display: inline-block;
+    padding: 20px;
 }
 /* CSS for site footer end */
