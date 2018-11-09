@@ -19,24 +19,29 @@
 /* CSS for sitemap.html end */
 
 /* CSS for site footer start */
-#footer-links {
-    
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: black;
-   text-align: center;
-}
-
-
-#footer-links .links {
-   
+footer #footerlinks .links {
+	color: black;
+    list-style-type: none;
     text-align: center;
+    margin: 0;
+    padding: 0;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
 }
 
-#footer-links .links li {
+footer #footerlinks .links li {
     display: inline-block;
+    font-size: 20px;
     padding: 20px;
+    color: black;
+}
+footer #footerlinks .links a {
+	color: black;
+}
+footer #footerlinks .links p {
+	color: black;
 }
 /* CSS for site footer end */
